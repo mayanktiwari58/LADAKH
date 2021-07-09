@@ -1,0 +1,1232 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* TO use Box Model  */
+  }
+  
+  body {
+      background-color: #fefce5;
+    font-family: "Merriweather", serif;
+    
+  }
+.mayank{
+    display: flex;
+    color: rgb(238, 9, 9);
+    gap: 15px;
+    list-style-type:none;
+    margin-left: 500px ;
+    text-decoration-style: none;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+  
+  #may{
+      margin-right: 50px;
+  }
+  
+  #heading{
+    margin-left: 34.5%;
+    margin-top: 5%;
+}
+#button{
+    margin-top: 3%;
+    font-size: 140%;
+    
+}
+
+#h1{
+    margin-left: 34%;
+    margin-top: 3%;
+    font-size: 400%;
+}
+.welcome{
+    text-align: center;
+    margin-top: 2%;
+}
+#container{
+    text-align: center;
+    margin-left: -30%;
+   justify-content: space-between;
+   
+}
+#img1{
+    
+    align-items: center;
+    margin-left: 60%;
+    margin-top: -7%;
+    height: 100px;
+}
+.boxes{
+    align-items: center;
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+#img2{
+    height: 100px;
+    margin-left: 8%;
+}
+#img3{
+    height: 75px;
+    margin-left: 45%;
+    margin-top: -10%;
+}
+#img4{
+    height: 65px;
+    margin-left: 75%;
+    margin-top: -14%;
+}
+.lorem{
+    display: flex;
+    font-size: 140%;
+}
+.lorembtn{
+    margin-top: 2%;
+    padding: 10px;
+    
+}
+#lorembtn1{
+    margin-left: 5%;
+    border-radius: 8%;
+    background-color: blueviolet;
+    padding: 10px;
+    
+    
+    
+}
+#lorembtn2{
+    margin-left:26% ;
+    border-radius: 8%;
+    background-color: yellow;
+    padding: 10px;
+    
+}
+#lorembtn3{
+    margin-left: 30%;
+    border-radius: 8%;
+    background-color: violet;
+    padding: 10px;
+    
+}
+#lorembtn1:hover{
+   background-color: red;
+}
+#lorembtn2:hover{
+    background-color:blue;
+ }
+ #lorembtn3:hover{
+    background-color:yellow;
+ }
+
+ .card1{
+     display: flex;
+     justify-content: space-around;
+     
+ }
+
+ .card:hover{
+     background-color: rgba(238, 238, 18, 0.781);
+ }
+ #project1{
+    margin-top: 2%;
+}
+#project2{
+    margin-top: 2%;
+}
+#video{
+    margin-top: 2%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.video__footage__container{
+    text-align: center;
+}
+.video__footage{
+    align-items: center; 
+    
+}
+.team{
+    display: flex;
+    justify-content: space-around;
+}
+.teampic{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+
+
+#team1{
+    width: 25%;
+    height: 70%;
+    margin-left: 90%;
+}
+
+#team1:hover{
+    background-color: brown;
+}
+
+#team2{
+    width: 25%;
+    height: 70%;
+    margin-left: 25%;
+}
+
+#team2:hover{
+    background-color: brown;
+}
+
+#team3{
+    width: 35%;
+    height: 70%;
+    margin-left: -50%;
+}
+#team3:hover{
+    background-color: brown;
+}   
+  
+#team-name{
+    margin-top: 4%;
+    margin-left: 93%;
+}
+#team-name1{
+    margin-top: 4%;
+    margin-left: 29%;
+}
+#team-name2{
+    margin-top: 4%;
+    margin-left: -45%;
+}
+
+#img{
+    background-image: url("https://www.pcclean.io/wp-content/gallery/mountain-hd-wallpapers/878874.jpg "  )  ;
+    background-repeat: no-repeat;
+    width:1520px;
+    height: 500px;
+}
+
+.carousel {
+    width: 10%;
+    height: -10%;
+    margin-left: 7%;
+}
+
+
+#carouselExampleControls{
+    width: 25%;
+    height: 5%;
+}
+
+.email__subcribe__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: normal;
+    justify-content: center;
+    background-image: url("photo-1522336572468-97b06e8ef143 (1).jpg");
+}
+.email__input {
+    border: 3px solid black;
+    background-color: #fcedf0;
+    color: black;
+    font-weight: 900;
+    box-shadow: 0 0 20px #eee;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 4px 4px 4px 4px;
+    width: 150%;
+    cursor: pointer;
+    margin-top: 20%;
+    
+
+}
+.button__primary{
+    border: 3px solid black;
+    margin: 10px 10px 10px 10px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    font-weight: 900;
+    background-size: 200% auto;
+    
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px 4px 4px 4px ;
+    display: block;
+    cursor: pointer;
+}
+
+#map{
+    width: 48%;
+    height: 100%;
+   
+    
+}
+
+
+#contact{
+    background-color: yellow;
+    width: 53%; 
+    margin-left: 48%;
+    margin-top: -29%;
+    
+}
+.email__input1{
+    margin-left: 7%;
+}
+#email{
+
+}
+#email1{
+    
+}
+#email2{
+    
+}
+#name{
+    margin-left: 7%;
+}
+#message{
+    margin-left: 7%;
+}
+#button-send{
+    padding: 0.5%;
+    width: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 15%;
+}
+#button-send:hover{
+    background-color: red;
+}
+
+#footer{
+    margin-left: 30%;
+    
+}
+#footer1{
+    margin-left: 2%;
+}
+#contact-us{
+    margin-left: 25%;
+}
+#message{
+    columns: 25px;
+    
+}
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+@media  (max-width: 1024px) {
+    
+    .mayank  {
+        font-size: 40px;
+        margin-left: 8%;
+        gap: 3%;
+        
+   }
+   #heading {
+       margin-left: 12%;
+    }
+    #h2{
+        font-size: 300%;
+    }
+    #h4{
+        font-size: 200%;
+        color: rgb(7, 8, 8);
+    }
+    #h1{
+        margin-left: 12%;
+        margin-top: 5%;
+        font-size: 400%;
+    }
+    .welcome h1{
+        margin-left: 45rem;
+        display: flex;
+        margin-top: 10%;
+        font-size: 300%;
+    }
+    #container{
+       
+       
+        border: 2px solid white;
+        margin-left: 50%;
+    }
+    #img1{
+        margin-left: 150%;
+        margin-top: -150%;
+        height: 200px;
+    }
+
+    #img2{
+        margin-left:50% ;
+    }
+    #img3{
+        margin-left:190% ;
+    }
+    #img4{
+        margin-left:320% ;
+        
+    }
+    .container5 {
+        max-width: 900px;
+      }
+      
+   
+    
+  
+  
+} */
+@media(max-width:1444px){
+
+    .mayank{
+        margin-left: 8%;
+    }
+    #heading{
+        margin-left: 10%;
+    }
+    #img{
+        background-image: url("https://cdn.wallpapersafari.com/24/44/YE3NHL.jpg"  )  ;
+        background-repeat: no-repeat;
+        width:1410px;
+        height: 500px;
+    }
+    #img1{
+        margin-left: 65%;
+        margin-top: -7%;
+    }
+    #h1{
+        margin-left: 10%;
+    }
+    #contact-us{
+        margin-left: 10%;
+    }
+}
+
+@media(max-width:1024px){
+    .mayank{
+        margin-left: 8%;
+    }
+    #heading{
+        margin-left: 10%;
+    }
+    #img{
+        background-image: url("https://cdn.wallpapersafari.com/24/44/YE3NHL.jpg"  )  ;
+        background-repeat: no-repeat;
+        width:1030px;
+        height: 500px;
+    }
+    #img1{
+        margin-left: 65%;
+        margin-top: -7%;
+    }
+    #h1{
+        margin-left: 10%;
+    }
+    #contact-us{
+        margin-left: 10%;
+    }
+    #video{
+        margin-left: 6%;
+    }
+    #lorembtn2{
+        margin-left: 18%;
+    }
+    #lorembtn3{
+        margin-left: 20%;
+    }
+    
+}
+    
+    
+
+@media(max-width:768px){
+   .welcome{
+       margin-left: 170%;
+   }
+   #img1{
+       margin-left: 300%;
+       margin-top: -20%;
+       
+   }
+    #img2{
+        margin-left:40% ;
+        
+    }
+    #img3{
+        margin-left:162% ;
+        margin-top: -130px;
+    }
+    #img4{
+        margin-top: -180px;
+        margin-left:280% ;
+    }
+
+    #container{
+        margin-left: 20%;
+    }
+  
+   
+   
+    .card1{
+        display: block;
+    }
+    
+    
+
+
+    .card-body{
+        width: 200%;
+    }
+
+    #lorem1{
+        margin-left: 40%;
+        font-size: 70%;
+    }
+    #lorem2{
+        margin-left:112% ;
+        font-size: 70%;
+        
+    }
+    #lorem3{
+        margin-left: 110%;
+        font-size: 70%;
+    }
+     .lorembtn{
+        display: flex;
+        margin-top: 2%;
+    }
+    #lorembtn1{
+        margin-left: 42%;
+        font-size: 100%;
+        
+    }
+    #lorembtn2{
+        margin-left:113% ;
+    }
+    #lorembtn3{
+        margin-left: 114%;
+    }
+
+       
+    #hr{
+       
+        width: 300%;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
+    .card-img-top{
+        width: 330%;
+    }
+    .card-text{
+        font-size: 300%;
+    }
+    #pricing{
+        margin-left: 60%;
+        
+    }
+
+    #project{
+        margin-left: 120%;
+        font-size: 300%;
+    }
+    #project1{
+        margin-left: 155%;
+        font-size: 300%;
+        margin-top: 10%;
+    }
+    #project2{
+        margin-left: 155%;
+        font-size: 300%;
+        margin-top: 10%;
+    }
+
+    #video{
+        margin-top: 2%;
+        
+        margin-right: -220%;
+      
+       
+    }
+    .video__footage__container{
+        text-align: center;
+        
+    }
+    .video__footage{
+        align-items: center; 
+        
+    }
+
+    #color{
+        background-color: #fefce5;
+    }
+.mayank{
+    margin-left: 10%;
+    font-size: 400%;
+    gap: 2%;
+}
+
+.team{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#team1{
+    width: 205%;
+    height: 90%;
+    margin-left: 90%;
+}
+
+#team1:hover{
+    background-color: brown;
+}
+
+#team2{
+    width: 205%;
+    height: 90%;
+    margin-left: 270%;
+}
+
+#team2:hover{
+    background-color: brown;
+}
+
+#team3{
+    width: 305%;
+    height: 90%;
+    margin-left: 700%;
+}
+#team3:hover{
+    background-color: brown;
+}  
+
+#img{
+    background-image: url("https://cdn.wallpapersafari.com/24/44/YE3NHL.jpg"  )  ;
+    background-repeat: no-repeat;
+    width:2540px;
+    height: 800px;
+}
+
+#team-name{
+    margin-top: 4%;
+    margin-left: 173%;
+}
+#team-name1{
+    margin-top: 4%;
+    margin-left: 349%;
+}
+#team-name2{
+    margin-top: 4%;
+    margin-left: 815%;
+}
+
+.carousel {
+    width: 10%;
+    height: -10%;
+    margin-left: 48%;
+}
+#carouselExampleControls{
+    width: 50%;
+    height: 5%;
+}
+
+.email__subcribe__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: normal;
+    justify-content: center;
+    margin-left: 160%;
+}
+.email__input {
+    border: 3px solid black;
+    background-color: #fcedf0;
+    color: black;
+    font-weight: 900;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 4px 4px 4px 4px;
+    width: 300%;
+   
+}
+.button__primary{
+    margin: 10px 10px 10px 10px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    font-weight: 900;
+    background-size: 200% auto;
+    width: 210%;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px 4px 4px 4px ;
+    display: block;
+    cursor: pointer;
+}
+
+#map{
+    width: 180%;
+    height: 60%;
+    
+}
+
+#contact{
+    background-color: yellow;
+    width: 150%; 
+    height: 100%;
+    margin-left: 180%;
+    margin-top: -110%;
+    
+}
+
+
+.email__input1{
+    margin-left: 7%;
+}
+#email1{
+    margin-top: 10%;
+    
+
+}
+#email{
+   padding: 55%;
+}
+#email2{
+    margin-top: 5%;
+    
+    
+}
+#name{
+    margin-left: 7%;
+    margin-top: 2%;
+}
+#message{
+    margin-left: 7%;
+    margin-top: 3%;
+    padding: 2.5%;
+   
+}
+#button-send{
+    padding: 0.5%;
+    width: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 15%;
+}
+#button-send:hover{
+    background-color: red;
+}
+
+#footer{
+    margin-left: 130%;
+    
+}
+#footer1{
+    margin-left: 20%;
+}
+#contact-us{
+    margin-left: 100%;
+}
+#card2{
+    margin-left: -100%;
+    
+}
+#card3{
+    margin-left: 180%;
+    margin-top: -155%;
+}
+#card4{
+    margin-left: 450%;
+    margin-top: -160%;
+}
+
+}
+
+@media (max-width:540px){
+    #img{
+        background-image: url("https://www.imagesjunction.com/images/img/mountain_Wallpaper.jpg"  )  ;
+        background-repeat: no-repeat;
+        width:2100px;
+        height: 800px;
+    }
+
+    .card-img-top{
+        width: 390%;
+    }
+    .mayank{
+        font-size: 300%;
+    }
+
+    #video{
+        margin-top: 2%;
+        
+        margin-right: -160%;
+      
+       
+    }
+    #carouselExampleControls{
+        width: 70%;
+    }
+    .carousel{
+        width: 25%;
+    }
+    #map{
+        width: 200%;
+        height: 10%;
+    }
+    
+    
+    #email1{
+        margin-top: 3%;
+    }
+    #email2{
+        margin-top: 3%;
+        
+    }
+    
+    
+    #contact{
+        margin-left: 200%;
+        width: 200%; 
+        margin-top: -125%;
+        background-color: rgb(115, 157, 190);
+        
+        
+        
+    }
+
+    #footer{
+        margin-left: 130%;
+        margin-top: 12%;
+        
+    }
+    #footer1{
+        margin-left: 20%;
+        margin-top: 12%;
+    }
+    #contact-us{
+        margin-left: 125%;
+        margin-top: 12%;
+    }
+
+    #card2{
+        margin-left: -100%;
+    }
+    #card3{
+        margin-left: 210%;
+        margin-top: -280%;
+    }
+    #card4{
+        margin-left: 530%;
+        margin-top: -300%;
+    }
+    
+}
+
+
+@media (max-width:500px){
+    #img{
+        background-image: url("https://www.pcclean.io/wp-content/gallery/mountain-hd-wallpapers/878874.jpg "  )  ;
+        background-repeat: no-repeat;
+        width:1600px;
+        height: 600px;
+    }
+
+   
+}
+
+
+@media(max-width:500px){
+   
+    .mayank{
+        margin-left: 10%;
+        font-size: 220%;
+    }
+    #container{
+        margin-left: 25%;
+    }
+
+    
+    #img1{
+        margin-top: -260px;
+        margin-left: 350%;
+    }
+    #img2{
+     
+        margin-left:50% ;
+    }
+    #img3{
+        margin-top: -130px;
+        margin-left:190% ;
+    }
+    #img4{
+        margin-top: -190px;
+        margin-left:330% ;
+    }
+    #lorem1{
+        margin-left: 50%;
+        font-size: 70%;
+    }
+    #lorem2{
+        margin-left:120% ;
+        font-size: 70%;
+        
+    }
+    #lorem3{
+        margin-left: 123%;
+        font-size: 70%;
+    }
+    .lorembtn{
+        display: flex;
+        margin-top: 2%;
+    }
+    #lorembtn1{
+        margin-left: 48%;
+        font-size: 100%;
+        
+    }
+    #lorembtn2{
+        margin-left:128% ;
+    }
+    #lorembtn3{
+        margin-left: 130%;
+    }
+    
+    #hr{
+       
+        width: 320%;
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+   .card1{
+       display: block;
+   }
+   .card-img-top{
+    width: 400%;
+}
+
+
+.card-body{
+    width: 300%;
+}
+#card2{
+    margin-left: -110%;
+}
+#card3{
+    margin-left: 210%;
+    margin-top: -325%;
+}
+#card4{
+    margin-left: 530%;
+    margin-top: -325%;
+}
+#project{
+    margin-left: 185%;
+    font-size: 300%;
+}
+#project1{
+    margin-left: 185%;
+    font-size: 300%;
+    margin-top: 10%;
+}
+#project2{
+    margin-left: 185%;
+    font-size: 300%;
+    margin-top: 10%;
+}
+#pricing{
+    margin-left: 60%;
+    
+}
+.card-text{
+    font-size: 300%;
+}
+#card-body1{
+    width: 500%;
+}
+.card-title{
+    font-size: 300%;
+}
+
+#video1{
+    margin-top: 2%;
+    
+    margin-right: -55%;
+  
+   
+}
+
+.video__footage__container{
+    text-align: center;
+    
+}
+.video__footage{
+    align-items: center; 
+    
+}
+#color{
+    background-color: #fefce5;
+}
+
+#team-name{
+    margin-top: 4%;
+    margin-left: 153%;
+    font-size: 160%;
+}
+#team-name1{
+    margin-top: 4%;
+    margin-left: 350%;
+    font-size: 160%;
+}
+#team-name2{
+    margin-top: 4%;
+    margin-left: 830%;
+    font-size: 160%;
+}
+
+#carouselExampleControls{
+    width: 70%;
+}
+.carousel{
+    width: 10%;
+}
+
+.email__subcribe__container {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: normal;
+    justify-content: center;
+    margin-left: 200%;
+    
+}
+.email__input {
+    border: 4px solid black;
+    background-color: #fcedf0;
+    color: black;
+    font-weight: 900rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 4px 4px 4px 4px;
+    width: 250%;
+   
+}
+.button__primary{
+    margin: 10px 10px 10px 10px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    font-weight: 900;
+    background-size: 200% auto;
+    width: 200%;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px 4px 4px 4px ;
+    display: block;
+    cursor: pointer;
+}
+
+
+#map{
+    width: 200%;
+    height: 1500%;
+}
+
+#email{
+   padding: 20%;
+}
+#email1{
+    margin-top: -9%;
+}
+#email2{
+    margin-top: -9%;
+    
+}
+
+
+#contact{
+    margin-left: 200%;
+    width: 196%; 
+    margin-top: -125%;
+    
+    
+}
+
+
+.email__input1{
+    margin-left: 10%;
+}
+#name{
+    margin-left: 10%;
+}
+#message{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+#button-send{
+    padding: 0.5%;
+    width: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 15%;
+    margin-left: 1%;
+}
+#button-send:hover{
+    background-color: red;
+}
+
+#footer{
+    margin-left: 130%;
+    
+}
+#footer1{
+    margin-left: 20%;
+}
+#contact-us{
+    margin-left: 120%;
+}
+
+
+
+}
+
+@media (max-width:375px){
+    #img{
+        background-image: url("https://www.pcclean.io/wp-content/gallery/mountain-hd-wallpapers/878874.jpg "  )  ;
+        background-repeat: no-repeat;
+        width:1200px;
+        height: 500px;
+    }
+
+    #video{
+        margin-top: 2%;
+        
+        margin-right: -90%;
+      
+    }
+    #team-name{
+        margin-top: 4%;
+        margin-left: 153%;
+        
+    }
+    #team-name1{
+        margin-top: 4%;
+        margin-left: 350%;
+      
+    }
+    #team-name2{
+        margin-top: 4%;
+        margin-left: 830%;
+        
+    }
+}
+
+@media (max-width:360px){
+    #img{
+        background-image: url("https://www.pcclean.io/wp-content/gallery/mountain-hd-wallpapers/878874.jpg "  )  ;
+        background-repeat: no-repeat;
+        width:1450px;
+        height: 500px;
+    }
+    #img3{
+        margin-left: 200%;
+    }
+    #img4{
+        margin-left: 340%;
+    }
+    #lorembtn2{
+        margin-left: 135%;
+    }
+    #card2{
+        margin-top: 10%;
+    }
+   
+    #card3{
+        margin-top: -450%;
+    }
+
+    #card4{
+        margin-top: -500%;
+    }
+    #video{
+        margin-left: 70%;
+    }
+    #team2{
+        margin-left: 320%;
+    }
+    #team-name1{
+        margin-left: 370%;
+    }
+}
+  
+    
+        
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+   
+
+
+  
+    
+   
+
+    
+
+ 
+            
+        
+        
+                 
+   
+
+ 
+  
+    
+
+
+
